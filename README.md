@@ -11,3 +11,7 @@ git branch -M main
 git remote add origin https://github.com/eggleebee/diary.git
 
 git push -u origin main
+
+git checkout my-feature
+
+git branch -a
