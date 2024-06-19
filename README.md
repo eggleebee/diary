@@ -17,3 +17,5 @@ git branch my-feature
 git checkout my-feature
 
 git branch -a
+
+git push -u origin my-feature
