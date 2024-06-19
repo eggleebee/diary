@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'EF_Diary';
+  font-weight: normal;
+  font-style: normal;
+  src: url('https://cdn.jsdelivr.net/gh/webfontworld/earlyfont/EF_Diary.eot');
+  src: url('https://cdn.jsdelivr.net/gh/webfontworld/earlyfont/EF_Diary.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/earlyfont/EF_Diary.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/earlyfont/EF_Diary.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/earlyfont/EF_Diary.ttf') format("truetype");
+  font-display: swap;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+  background-color: rgb(246, 246, 246);
+}
+
+#root {
+  background-color: #fff;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  height: 100%;
+  box-shadow: rgba(100, 100, 100, 0.2) 0 0 29px 0;
+  padding: 0 20px;
+}
+
+body * {
+  font-family: 'EF_Diary';
+  font-size: 1em;
+  font-weight: 700;
+}
